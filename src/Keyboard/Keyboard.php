@@ -153,7 +153,7 @@ final class Keyboard extends Base
     /**
      * Create a new row in keyboard to add buttons.
      */
-    public function row(array $buttons = []): self
+    public function row(...$buttons): self
     {
         $property = $this->inline ? 'inline_keyboard' : 'keyboard';
         $this->items[$property][] = $buttons;
