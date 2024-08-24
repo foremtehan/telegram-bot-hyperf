@@ -1,5 +1,5 @@
 {
-    "name": "irazasyed/telegram-bot-sdk",
+    "name": "foremtehan/telegram-bot-hyperf",
     "description": "The Unofficial Telegram Bot API PHP SDK",
     "license": "BSD-3-Clause",
     "type": "library",
